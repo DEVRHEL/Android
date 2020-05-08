@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_Home"
+            android:layout_width="9dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="=" />
+
+        <Button
+            android:id="@+id/button_Back"
+            android:layout_width="4dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Back" />
+
+        <TextView
+            android:id="@+id/textView_CauHoiSo"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Câu hỏi số" />
+
+        <Button
+            android:id="@+id/button_Next"
+            android:layout_width="4dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Next" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_NoiDungCauHoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Nội dung câu hỏi" />
+
+    <ImageView
+        android:id="@+id/imageView_Image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/button_A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A." />
+
+    <Button
+        android:id="@+id/button_B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B." />
+
+    <Button
+        android:id="@+id/button_C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C." />
+
+    <Button
+        android:id="@+id/button_D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D." />
+
+</LinearLayout>

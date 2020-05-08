@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonPig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="pig" />
+
+        <RadioButton
+            android:id="@+id/radioButtonCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cat" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dog" />
+
+        <RadioButton
+            android:id="@+id/radioButtonRabit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rabit" />
+
+        <RadioButton
+            android:id="@+id/radioButtonTdc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tdc" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="382dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/pig" />
+
+    </RadioGroup>
+
+</LinearLayout>
